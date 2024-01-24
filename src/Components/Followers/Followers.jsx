@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import UserInformation from "../../UserInformation/UserInformation";
+import UserInformation from "../UserInformation/UserInformation";
 import { userContext } from "../../App";
 import "./Followers.css";
 import { useNavigate } from "react-router-dom";
