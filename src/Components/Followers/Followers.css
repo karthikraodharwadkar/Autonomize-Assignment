@@ -8,7 +8,6 @@
   background-color: lightgray;
   border-radius: 10px;
   padding: 25px;
-  cursor: pointer;
   margin: 10px;
 }
 .followers-list-image > img {
@@ -22,6 +21,7 @@
   align-items: center;
   flex-direction: column;
   gap: 10px;
+  cursor: pointer;
 }
 .follower-list-container {
   width: 100px;
@@ -35,8 +35,6 @@
   .followers-list {
     display: grid;
     grid-template-columns: repeat(2, auto);
-    /* justify-content: center;
-        align-content: center;  */
     width: 300px;
     gap: 20px;
     place-items: center;
