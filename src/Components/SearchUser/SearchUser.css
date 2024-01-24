@@ -1,0 +1,19 @@
+.searchBar {
+  height: 30px;
+  border-radius: 10px;
+  border: 1px solid black;
+  padding: 10px;
+  margin: 0px 10px;
+  font-size: 14px;
+}
+.search-btn {
+  height: 30px;
+  padding: 0px 10px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  font-weight: 500;
+}
+.search-user-container{
+    margin:10px;
+}

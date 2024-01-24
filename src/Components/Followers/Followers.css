@@ -1,0 +1,51 @@
+.followers-list {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  align-items: center;
+  max-width: 550px;
+  gap: 20px;
+  flex-wrap: wrap;
+  background-color: lightgray;
+  border-radius: 10px;
+  padding: 25px;
+  cursor: pointer;
+  margin: 10px;
+}
+.followers-list-image > img {
+  height: 50px;
+  width: 50px;
+  border-radius: 10px;
+}
+.followers-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+.follower-list-container {
+  width: 100px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+@media (max-width: 720px) {
+  .followers-list {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    /* justify-content: center;
+        align-content: center;  */
+    width: 300px;
+    gap: 20px;
+    place-items: center;
+  }
+  .follower-list-container {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+}
