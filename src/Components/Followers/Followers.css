@@ -21,7 +21,6 @@
   align-items: center;
   flex-direction: column;
   gap: 10px;
-  cursor: pointer;
 }
 .follower-list-container {
   width: 100px;
@@ -30,6 +29,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  cursor: pointer;
 }
 @media (max-width: 720px) {
   .followers-list {
@@ -45,5 +45,6 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    cursor: pointer;
   }
 }
